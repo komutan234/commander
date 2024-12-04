@@ -1,0 +1,27 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "https://github.com/user-attachments/assets/76725cfd-9e62-40a2-934b-5aa199cc2db2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komutan234/calculator-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komutan234/calculator-project/issues"
+  },
+  "homepage": "https://github.com/komutan234/calculator-project#readme",
+  "dependencies": {
+    "jsonfile": "^6.2.0",
+    "moment": "^2.30.1",
+    "random": "^4.1.0",
+    "simple-git": "^3.28.0"
+  }
+}
