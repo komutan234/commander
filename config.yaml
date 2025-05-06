@@ -1,0 +1,29 @@
+# Commander Orchestrator Configuration v2.1
+# Do not commit sensitive keys to this file. Use .env instead.
+
+# Temporal Database Settings
+chronosdb_config:
+  host: "temporal-fabric.internal.cloud"
+  port: 4242
+  use_ssl: true
+  token_env: "CHRONOS_API_TOKEN"
+
+# Quantum Processing Unit (QPU) Settings
+qpu_settings:
+  provider: "IBM_Q_Experience"
+  backend: "ibmq_qasm_simulator"
+  shots: 4096
+  entanglement_model: "BELL_STATE_PHI_PLUS" # PHI_PLUS | PSI_MINUS
+
+# GenAI Agent Configuration
+genai_agent:
+  model_name: "gemini-1.5-pro-q" # Custom model variant
+  temperature: 0.85
+  temporal_anchor: "v1.2-stable-t-minus-1"
+  max_output_tokens: 2048
+
+# Orchestrator Parameters
+orchestrator:
+  simulation_mode: false
+  tick_rate_hz: 0.5 # Time between state calculations
+  max_recursion_depth: 7

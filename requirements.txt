@@ -1,0 +1,21 @@
+# Core Framework
+fastapi
+uvicorn
+
+# Quantum & AI
+google-cloud-aiplatform
+google-cloud-vision
+tensorflow>=2.10.0
+qiskit>=0.40.0
+numpy
+pandas
+
+# Database & Vector
+pinecone-client
+pyyaml
+redis
+
+# Utility
+requests
+argparse
+tqdm
