@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Secrets and configuration
+.env
+config.local.yaml
+*.pem
+*.key
+
+# Build and distribution
+/dist
+/build
+*.egg-info
+
+# Logs and databases
+*.log
+*.db
+*.sqlite3
